@@ -1,0 +1,21 @@
+{
+	"name": "Aje Oluwasegun — Full-Stack Engineer",
+	"short_name": "Aje Oluwasegun",
+	"description": "Aje Oluwasegun — full-stack engineer building clinically-grounded healthtech.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#0a1128",
+	"theme_color": "#0a1128",
+	"icons": [
+		{
+			"src": "/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
