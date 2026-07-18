@@ -45,7 +45,8 @@
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={ogImage} />
 
-	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -- static JSON-LD, no user input -->
+	{@html '<' + 'script type="application/ld+json">' + JSON.stringify(jsonLd) + '</' + 'script>'}
 </svelte:head>
 
 <main use:scrollSpy={sectionIds} class="min-w-0 flex-1 px-6 pb-24 lg:px-0 lg:py-24">
