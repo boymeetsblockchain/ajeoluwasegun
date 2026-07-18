@@ -21,7 +21,7 @@
 			<a
 				href={social.linkedin}
 				target="_blank"
-				rel="noreferrer"
+				rel="noreferrer external"
 				class="inline-flex items-center gap-2 font-medium text-ink transition-colors hover:text-accent"
 			>
 				<Icon name="linkedin" class="h-4 w-4" />
@@ -30,7 +30,7 @@
 			<a
 				href={social.github}
 				target="_blank"
-				rel="noreferrer"
+				rel="noreferrer external"
 				class="inline-flex items-center gap-2 font-medium text-ink transition-colors hover:text-accent"
 			>
 				<Icon name="github" class="h-4 w-4" />

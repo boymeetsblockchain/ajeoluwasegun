@@ -50,7 +50,7 @@
 			<a
 				href={link.href}
 				target="_blank"
-				rel="noreferrer"
+				rel="noreferrer external"
 				class="inline-flex items-center gap-1.5 text-sm font-medium text-ink transition-colors hover:text-accent"
 			>
 				{link.label}

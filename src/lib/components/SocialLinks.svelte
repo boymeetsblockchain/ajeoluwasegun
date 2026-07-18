@@ -3,9 +3,9 @@
 	import Icon from './Icon.svelte';
 
 	const links = [
-		{ href: social.github, label: 'GitHub', icon: 'github' as const, external: true },
-		{ href: social.linkedin, label: 'LinkedIn', icon: 'linkedin' as const, external: true },
-		{ href: `mailto:${social.email}`, label: 'Email', icon: 'mail' as const, external: false }
+		{ href: social.github, label: 'GitHub', icon: 'github' as const },
+		{ href: social.linkedin, label: 'LinkedIn', icon: 'linkedin' as const },
+		{ href: `mailto:${social.email}`, label: 'Email', icon: 'mail' as const }
 	];
 </script>
 
@@ -14,8 +14,8 @@
 		<li>
 			<a
 				href={link.href}
-				target={link.external ? '_blank' : undefined}
-				rel={link.external ? 'noreferrer' : undefined}
+				target="_blank"
+				rel="noreferrer external"
 				aria-label={link.label}
 				class="text-ink-muted transition-colors hover:text-accent"
 			>

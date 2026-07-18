@@ -11,6 +11,7 @@
 		<li>
 			<a
 				href={item.href}
+				rel="external"
 				onclick={onNavigate}
 				class="group flex items-center gap-4 py-2 text-sm font-medium tracking-widest uppercase transition-colors {active
 					? 'text-ink'
