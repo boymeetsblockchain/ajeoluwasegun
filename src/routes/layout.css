@@ -9,10 +9,8 @@
 	--color-ink-muted: #94a3b8;
 	--color-accent: #22d3ee;
 
-	--font-sans:
-		'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
-	--font-mono:
-		'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+	--font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+	--font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
 @layer base {

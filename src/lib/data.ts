@@ -4,8 +4,8 @@ export const profile = {
 	tagline: 'Full-stack engineer building healthtech that ships',
 	intro: [
 		"I'm a full-stack and mobile engineer working across React, Next.js, NestJS, TypeScript, and PostgreSQL, currently a Solutions Architect overseeing delivery across several client products.",
-		"I trained as a physiotherapist before moving into software, which shapes how I build: I design healthtech with a clinical model in mind, not just a technical one.",
-		"Open to remote roles."
+		'I trained as a physiotherapist before moving into software, which shapes how I build: I design healthtech with a clinical model in mind, not just a technical one.',
+		'Open to remote roles.'
 	]
 };
 
@@ -47,8 +47,7 @@ export const experience: ExperienceEntry[] = [
 		company: 'Pretoria Consulting',
 		role: 'Mobile Developer, Contract',
 		dates: 'Jan 2026 — Jun 2026',
-		description:
-			'Built features for Konnect, a React Native outsourcing and talent-matching app.'
+		description: 'Built features for Konnect, a React Native outsourcing and talent-matching app.'
 	},
 	{
 		company: 'Trippicker Nigeria',
@@ -171,14 +170,6 @@ export const skills = [
 	},
 	{
 		group: 'Cloud & Infrastructure',
-		items: [
-			'AWS',
-			'Azure',
-			'Cloudflare R2',
-			'Daily.co',
-			"Africa's Talking",
-			'Paystack',
-			'Docker'
-		]
+		items: ['AWS', 'Azure', 'Cloudflare R2', 'Daily.co', "Africa's Talking", 'Paystack', 'Docker']
 	}
 ];

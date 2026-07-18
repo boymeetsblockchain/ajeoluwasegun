@@ -9,9 +9,7 @@
 	<FeaturedProject />
 
 	<div class="mt-16">
-		<h3 class="mb-6 font-mono text-xs uppercase tracking-widest text-ink-muted">
-			Other projects
-		</h3>
+		<h3 class="mb-6 font-mono text-xs tracking-widest text-ink-muted uppercase">Other projects</h3>
 		<div class="grid gap-6 sm:grid-cols-2">
 			{#each otherProjects as project (project.name)}
 				<ProjectCard {project} />

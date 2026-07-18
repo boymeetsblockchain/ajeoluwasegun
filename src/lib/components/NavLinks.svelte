@@ -12,7 +12,7 @@
 			<a
 				href={item.href}
 				onclick={onNavigate}
-				class="group flex items-center gap-4 py-2 text-sm font-medium uppercase tracking-widest transition-colors {active
+				class="group flex items-center gap-4 py-2 text-sm font-medium tracking-widest uppercase transition-colors {active
 					? 'text-ink'
 					: 'text-ink-muted hover:text-ink'}"
 			>

@@ -6,7 +6,7 @@
 <div class="rounded-2xl border border-white/5 bg-panel/60 p-6 sm:p-8">
 	<div class="flex flex-wrap items-baseline justify-between gap-2">
 		<h3 class="text-xl font-semibold text-ink">{featuredProject.name}</h3>
-		<span class="font-mono text-xs uppercase tracking-widest text-accent">
+		<span class="font-mono text-xs tracking-widest text-accent uppercase">
 			{featuredProject.tagline}
 		</span>
 	</div>

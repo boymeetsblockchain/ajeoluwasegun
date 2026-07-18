@@ -11,7 +11,9 @@
 </script>
 
 <section {id} use:reveal class="scroll-mt-24 py-16 first:pt-0 lg:py-24">
-	<h2 class="mb-8 flex items-baseline gap-3 text-sm font-semibold uppercase tracking-widest text-ink">
+	<h2
+		class="mb-8 flex items-baseline gap-3 text-sm font-semibold tracking-widest text-ink uppercase"
+	>
 		<span class="font-mono text-xs text-accent">{number}</span>
 		{label}
 	</h2>

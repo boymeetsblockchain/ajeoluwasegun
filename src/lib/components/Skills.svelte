@@ -7,7 +7,7 @@
 	<div class="grid gap-8 sm:grid-cols-3">
 		{#each skills as group (group.group)}
 			<div>
-				<h3 class="mb-3 font-mono text-xs uppercase tracking-widest text-ink-muted">
+				<h3 class="mb-3 font-mono text-xs tracking-widest text-ink-muted uppercase">
 					{group.group}
 				</h3>
 				<ul class="flex flex-wrap gap-2">
